@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   enviorment.systemPackages = with pkgs; [
-    nvim
+    neovim
     git
   ];
 }
