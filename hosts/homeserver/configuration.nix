@@ -1,8 +1,8 @@
-{ inputs, config, ... }:
+{ inputs, config, mods, ... }:
 {
   imports = [
     ./hardware-configuration.nix
-    ../../modules/tailscale.nix
+    "${mods}/tailscale.nix"
   ];
   system.stateVersion = "25.05";
 }
