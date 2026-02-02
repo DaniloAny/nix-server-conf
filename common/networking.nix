@@ -2,6 +2,7 @@
 {
   networking = {
     firewall.allowedUDPPorts = [ 22 ];
+    hostName = "homeserver";
   };
 
   # ssh config
