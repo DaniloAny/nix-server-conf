@@ -2,7 +2,7 @@
 {
   imports = [
     ./hardware-configuration.nix
-    "${mods}/tailscale.nix"
+    ../../modules/tailscale.nix
   ];
   system.stateVersion = "25.05";
 }
