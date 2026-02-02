@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-stable";
   };
 
-  outputs = { self, nixpkgs, mods, ... }@inputs: 
+  outputs = { self, nixpkgs, ... }@inputs: 
     let
       mods = ./modules;
     in
