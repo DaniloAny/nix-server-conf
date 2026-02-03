@@ -3,7 +3,7 @@
 {
   services.pihole-web = {
     enable = true;
-    ports = [ "53o"];
+    #ports = [ "53o"];
   };
   services.pihole-ftl = {
 
@@ -14,6 +14,7 @@
     settings = {
         dns.upstreams = [ "1.1.1.1" ];   # To use Cloudflare's DNS Servers
     };
+
 
     # Lists can be added via URL
     lists = [
