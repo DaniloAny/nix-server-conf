@@ -10,7 +10,7 @@
     }];
     defaultGateway = "192.168.0.1";
     interfaces.enp0s25.useDHCP = false;
-    nameservers = ["8.8.8.8"];
+    nameservers = ["1.1.1.1"];
   };
 
   # ssh config
