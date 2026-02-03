@@ -1,7 +1,11 @@
 { config, pkgs, ... }:
 
 {
-services.pihole-ftl = {
+  services.pihole-web = {
+    enable = true;
+    ports = [ "53o"]
+  };
+  services.pihole-ftl = {
 
     enable = true;
     openFirewallDNS = true;              # To open port 53 for DNS traffic
@@ -20,5 +24,5 @@ services.pihole-ftl = {
             description = "Sample blocklist by hagezi";
         }
     ];
-};
+  };
 }
