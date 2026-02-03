@@ -2,7 +2,7 @@
 {
   networking = {
     useDHCP = false;
-    firewall.allowedUDPPorts = [ 22 ];
+    firewall.allowedUDPPorts = [ 22 33 ];
     hostName = "homeserver";
     interfaces.enp0s25.ipv4.addresses = [{
       address = "192.168.0.69";
