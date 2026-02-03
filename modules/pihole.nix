@@ -3,7 +3,7 @@
 {
   services.pihole-web = {
     enable = true;
-    ports = [ "1479" ];
+    ports = [ "333" ];
   };
   services.pihole-ftl = {
 

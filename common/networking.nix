@@ -2,8 +2,8 @@
 {
   networking = {
     useDHCP = false;
-    firewall.allowedUDPPorts = [ 22 1479 ];
-    firewall.allowedTCPPorts = [ 1479 ];
+    firewall.allowedUDPPorts = [ 22 333 ];
+    firewall.allowedTCPPorts = [ 333 ];
 
     hostName = "homeserver";
 
