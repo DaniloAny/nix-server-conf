@@ -4,5 +4,6 @@
     neovim
     htop
     git
+    unixtools.netstat
   ];
 }
