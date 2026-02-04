@@ -17,7 +17,7 @@
         active = true;
         start = "192.168.0.2";
         end = "192.168.0.100";
-        leasetime = "1w";
+        leasetime = "12h";
         netmask = "255.255.255.0";
         router = "192.168.0.1";
       };
