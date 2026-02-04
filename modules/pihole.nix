@@ -19,6 +19,7 @@
         end = "192.168.0.100";
         leasetime = "1w";
         netmask = "255.255.255.0";
+        router = "192.168.0.1";
       };
         dns.upstreams = [ "1.1.1.1" ];   # To use Cloudflare's DNS Servers
     };
