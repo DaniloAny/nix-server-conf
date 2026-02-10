@@ -3,7 +3,7 @@
   networking = {
     useDHCP = false;
     firewall.allowedUDPPorts = [ 22 333 53 67 ];
-    firewall.allowedTCPPorts = [ 333 53 67 ];
+    firewall.allowedTCPPorts = [ 333 53 67 3000 22 ];
 
     hostName = "homeserver";
 
