@@ -5,10 +5,10 @@
     enable = true;
     settings = {
       DEFAULT = {
-        APP_NAME = "nixiscool";
+        APP_NAME = "the repo";
       };
       service = {
-        DISABLE_REGISTRATION = true;
+        DISABLE_REGISTRATION = false;
         ENABLE_CAPTCHA = true;
       };
     };
