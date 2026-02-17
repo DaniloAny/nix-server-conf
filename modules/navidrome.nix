@@ -8,6 +8,6 @@
             Address = "192.168.0.69";
         };
     };
-    netowrking.firewall.allowedTCPPorts = [ 4533 ];
+    networking.firewall.allowedTCPPorts = [ 4533 ];
     networking.firewall.allowedUDPPorts = [ 4533 ];
 }
