@@ -8,6 +8,6 @@
             Address = "192.168.0.69";
         };
     };
-    allowedTCPPorts = [ 4533 ];
-    allowedUDPPorts = [ 4533 ];
+    networking.allowedTCPPorts = [ 4533 ];
+    networking.allowedUDPPorts = [ 4533 ];
 }
