@@ -2,7 +2,7 @@
 {
     services.navidrome = {
         enable = true;
-        setting = {
+        settings = {
             MusicFolder = ./music;
             Port = 4533;
             Address = "192.168.0.69";
