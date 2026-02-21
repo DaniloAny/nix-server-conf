@@ -3,7 +3,7 @@
     services.navidrome = {
         enable = true;
         settings = {
-            MusicFolder = "/home/admin/nix-server-conf/modules/music/";
+            MusicFolder = "./music/";
             Port = 4533;
             Address = "192.168.0.69";
         };
