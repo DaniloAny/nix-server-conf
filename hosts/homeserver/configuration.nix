@@ -6,6 +6,7 @@
     "${mods}/pihole.nix"
     "${mods}/forgejo.nix"
     "${mods}/navidrome.nix"
+    "${mods}/homepage.nix"
   ];
   system.stateVersion = "25.05";
 }
