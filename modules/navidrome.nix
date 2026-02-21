@@ -1,4 +1,4 @@
-{ ... }:
+{ lib, config, ... }:
 {
     services.navidrome = {
         enable = true;
@@ -10,5 +10,5 @@
     };
     networking.firewall.allowedTCPPorts = [ 4533 ];
     networking.firewall.allowedUDPPorts = [ 4533 ];
-    systemd.services.navidrome.serviceConfig.ProtectHome = "read-only";
+      systemd.services.navidrome.serviceConfig.ProtectHome = lib.mkForce "read-only";
 }
