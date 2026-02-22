@@ -5,7 +5,7 @@
         settings = {
             MusicFolder = "/home/admin/nix-server-conf/modules/music";
             Port = 4533;
-            Address = "::";
+            Address = "0.0.0.0";
             
         };
     };
