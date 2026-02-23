@@ -7,6 +7,7 @@
     "${mods}/forgejo.nix"
     "${mods}/navidrome.nix"
     "${mods}/homepage.nix"
+    "${mods}/kuma.nix"
   ];
   system.stateVersion = "25.05";
 }
