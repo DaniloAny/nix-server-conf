@@ -3,7 +3,7 @@
   services.uptime-kuma = {
     enable = true;
     settings = {
-      HOST = "::";
+      HOST = "0.0.0.0";
     };
   };
 }
