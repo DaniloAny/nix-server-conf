@@ -5,5 +5,6 @@
     htop
     git
     unixtools.netstat
+    btop
   ];
 }
