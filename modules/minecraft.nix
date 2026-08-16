@@ -6,7 +6,7 @@
 	enable = true;
 	eula = true;
 	openFirewall = true; # Opens the port the server is running on (by default 25565 but in this case 43000)
-	servers = {
+	server = {
 	  skibidi = {
 		enable = true;
 		package = pkgs.fabricServers.fabric;
