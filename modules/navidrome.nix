@@ -3,7 +3,7 @@
     services.navidrome = {
         enable = true;
         settings = {
-            MusicFolder = "/home/admin/Music";
+            MusicFolder = "/shares/Navidrome";
             Port = 4533;
             Address = "0.0.0.0";
             
