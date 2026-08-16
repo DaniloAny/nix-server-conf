@@ -9,7 +9,7 @@
 	servers = {
 	  skibidi = {
 		enable = true;
-		package = pkgs.fabricServers.fabric
+		package = pkgs.fabricServers.fabric;
 		jvmOpts = "-Xmx6G -Xms3G";
 		serverProperties = {
 		  difficulty = 3;
