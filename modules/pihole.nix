@@ -14,7 +14,7 @@
     # Settings documented at <https://docs.pi-hole.net/ftldns/configfile/>
     settings = {
       dhcp = {
-        active = true;
+        active = false;
         start = "192.168.0.2";
         end = "192.168.0.100";
         leasetime = "12h";

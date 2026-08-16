@@ -8,6 +8,7 @@
     "${mods}/navidrome.nix"
     "${mods}/homepage.nix"
     "${mods}/kuma.nix"
+    "${mods}/minecraft.nix"
   ];
   system.stateVersion = "25.05";
 }
