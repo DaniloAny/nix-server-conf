@@ -9,6 +9,7 @@
     "${mods}/homepage.nix"
     "${mods}/kuma.nix"
     "${mods}/minecraft.nix"
+    "${mods}/nfs.nix"
   ];
   system.stateVersion = "25.05";
 }
