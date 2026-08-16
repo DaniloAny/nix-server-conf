@@ -8,7 +8,6 @@
 
   outputs = { self, nixpkgs, ... }@inputs: 
     let
-      music = ./modules/music;
       mods = ./modules;
     in
   {
